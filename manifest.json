@@ -1,15 +1,18 @@
 {
-    "background_color": "#ffffff",
-    "dir": "ltr",
-    "display": "standalone",
-    "name": "Agendamentodereunioes",
-    "orientation": "any",
-    "scope": "/",
-    "short_name": "agendarreunioes",
-    "start_url": "/",
-    "theme_color": "#ffffff",
-    "lang": "pt",
-    "categories": [
-      "utilities"
-    ]
-  }
+  "background_color": "#4309af",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "Agendamentodereunioes",
+  "orientation": "landscape",
+  "scope": "/",
+  "short_name": "agendarreunioes",
+  "start_url": "/https://deceitful1.github.io/agendamentoDeReunioes.io/",
+  "theme_color": "#f51a1a",
+  "lang": "pt",
+  "categories": [
+    "utilities"
+  ],
+  "description": "icone de relógio",
+  "id": "34212",
+  "prefer_related_applications": false
+}
