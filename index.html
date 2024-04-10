@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Problema: Um grupo de desenvolvedores web tem muita dificuldade para marcar reuniões semanais para discutirem sobre as demandas semanais
+    
+    solução do problema: Desenvolvimento de um web aplicativo para agendar reuniões-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Reuniões</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn-primary {
+            background-color: #5100ff;
+            border-color: #4800ff;
+        }
+        .btn-primary:hover {
+            background-color: #1500b3;
+            border-color: #5c00b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="text-center mb-4">Agendamento de Reuniões</h2>
+        <form>
+            <div class="form-group">
+                <label for="meeting_title">Título da Reunião:</label>
+                <input type="text" class="form-control" id="meeting_title" name="meeting_title" required>
+            </div>
+            <div class="form-group">
+                <label for="meeting_date">Data da Reunião:</label>
+                <input type="date" class="form-control" id="meeting_date" name="meeting_date" required>
+            </div>
+            <div class="form-group">
+                <label for="meeting_time">Horário da Reunião:</label>
+                <input type="time" class="form-control" id="meeting_time" name="meeting_time" required>
+            </div>
+            <div class="form-group">
+                <label for="meeting_timezone">Fuso Horário:</label>
+                <select class="form-control" id="meeting_timezone" name="meeting_timezone">
+                    <option value="GMT-3">GMT-3</option>
+                    <option value="GMT-4">GMT-4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="attendees">Participantes:</label>
+                <textarea class="form-control" id="attendees" name="attendees" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Agendar Reunião</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; Agendamento de Reuniões. Todos os direitos reservados.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
