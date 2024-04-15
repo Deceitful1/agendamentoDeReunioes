@@ -6,13 +6,14 @@
   "orientation": "landscape",
   "scope": "/",
   "short_name": "agendarreunioes",
+  
   "start_url": "AppImages.zip",
   "theme_color": "#f51a1a",
   "lang": "pt",
   "categories": [
     "utilities"
   ],
-  "description": "icone de relógio",
+  "description": "aplicativo destinado ao agendamento de reuniões.",
   "id": "34212",
   "prefer_related_applications": false
 }
