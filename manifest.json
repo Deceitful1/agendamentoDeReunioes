@@ -6,7 +6,16 @@
   "orientation": "landscape",
   "scope": "/",
   "short_name": "agendarreunioes",
-  {
+  "start_url": "AppImages.zip",
+  "theme_color": "#f51a1a",
+  "lang": "pt",
+  "categories": [
+    "utilities"
+  ],
+  "description": "aplicativo destinado ao agendamento de reuniões.",
+  "id": "34212",
+  "prefer_related_applications": false,
+  
     "icons": [
       {
         "src": "windows11/SmallTile.scale-100.png",
@@ -458,13 +467,4 @@
       }
     ]
   }
-  "start_url": "AppImages.zip",
-  "theme_color": "#f51a1a",
-  "lang": "pt",
-  "categories": [
-    "utilities"
-  ],
-  "description": "aplicativo destinado ao agendamento de reuniões.",
-  "id": "34212",
-  "prefer_related_applications": false
-}
+
